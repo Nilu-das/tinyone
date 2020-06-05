@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header part start */
+
+.headre-area {
+    background-color: #ffdd00;
+    padding: 50px 0px;
+}
+
+.menu-custome ul li a {
+    color: #010101 !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.menu-custome ul li {
+    padding: 0px 30px;
+}
+
+
+/* header part end */
