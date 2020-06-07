@@ -4,25 +4,29 @@
     /* nav bar start */
     .navbar-light .navbar-toggler-icon {
         background-image: url("../img/tab2.png");
+        width: 35px;
+        height: 35px;
+        transform: translateX(-15%) !important;
     }
     .navbar-toggler-icon {
         width: 2em;
         height: 2em;
         background-color: #ffffff;
-        border-radius: 50%;
+        border-radius: 5%;
     }
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, .5);
-        border-color: 0px;
+        border-color: none;
         background: #101010;
-        border-radius: 50%;
-        width: 64px;
-        height: 64px;
+        border-radius: 5%;
+        width: 50px;
+        height: 50px;
     }
     .navbar-nav .nav-link {
         text-align: center;
         background: #757474;
-        color: #ffffff !important;
+        color: #1e1d1d !important;
+        font-size: 30px;
     }
     /* nav bar end */
     /* slider part start */
@@ -31,69 +35,56 @@
     }
     .slider-content h2 {
         font-size: 40px;
-        text-align: center;
-    }
-    .slider-content h4 {
-        text-align: center;
     }
     .slider-content p {
         padding-top: 5px;
-        text-align: center;
     }
-    .list-inline {
-        margin-left: 30%;
+    .slider-all {
+        text-align: center;
     }
     .slider-img {
         text-align: center;
     }
     /* slider part end */
     /* feature part start */
-    .image-card img {
-        width: 60px;
-        margin-left: 80px;
+    #features-part {
+        padding: 40px 0px;
     }
-    .card-titles h5 {
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .card-titles p {
-        font-size: 16px;
-    }
-    .tinyone-title p {
-        width: 95%;
-        padding-bottom: 40px;
+    .features-title p {
+        font-size: 15px;
+        line-height: 20px;
     }
     /* feature part end */
-    /* contact part start */
-    .login-form p {
-        font-size: 18px;
-        width: 100%;
-        margin-left: 0px;
-        padding-bottom: 10px;
+    .features-title p {
+        font-size: 17px;
+        line-height: 22px;
     }
-    .email-address input {
-        width: 446px !important;
-        margin-left: 50px;
-        margin-bottom: 15px;
+    .features-item {
         text-align: center;
-        font-size: 20px;
     }
-    .btn-custome {
-        width: 82%;
-        margin-left: 50px;
+    .features-item {
+        padding-top: 20px;
+    }
+    .features-item .feature-icon {
+        font-size: 60px;
+    }
+    .features-item .features-content h5 {
+        font-size: 35px;
+    }
+    .features-item .features-content p {
+        font-size: 19px;
+        padding: 0px 51px;
+    }
+    /* contact part start */
+    .contact-title h2 {
+        font-size: 40px;
+    }
+    .login-part button {
+        margin: 3% 0% 0% 31%;
+        width: 200px;
     }
     /* contact part end */
     /* footer part start */
-    .footer-p p {
-        font-size: 12px;
-    }
-    .link ul li {
-        line-height: normal;
-    }
-    .link ul li a {
-        font-size: 13px;
-        line-height: 0px !important;
-    }
     /* footer part end */
 }
 
@@ -104,25 +95,29 @@
     /* nav bar start */
     .navbar-light .navbar-toggler-icon {
         background-image: url("../img/tab2.png");
+        width: 35px;
+        height: 35px;
+        transform: translateX(-15%) !important;
     }
     .navbar-toggler-icon {
         width: 2em;
         height: 2em;
         background-color: #ffffff;
-        border-radius: 50%;
+        border-radius: 5%;
     }
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, .5);
-        border-color: 0px;
+        border-color: none;
         background: #101010;
-        border-radius: 50%;
-        width: 64px;
-        height: 64px;
+        border-radius: 5%;
+        width: 50px;
+        height: 50px;
     }
     .navbar-nav .nav-link {
         text-align: center;
         background: #757474;
-        color: #ffffff !important;
+        color: #1e1d1d !important;
+        font-size: 30px;
     }
     /* nav bar end */
     /* slider part start */
@@ -131,61 +126,54 @@
     }
     .slider-content h2 {
         font-size: 40px;
-        text-align: center;
-    }
-    .slider-content h4 {
-        text-align: center;
     }
     .slider-content p {
         padding-top: 5px;
-        text-align: center;
     }
-    .list-inline {
-        margin-left: 30%;
+    .slider-all {
+        text-align: center;
     }
     .slider-img {
         text-align: center;
     }
     /* slider part end */
     /* feature part start */
-    .image-card img {
-        width: 60px;
-        margin-left: 80px;
-    }
-    .card-titles h5 {
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .card-titles p {
-        font-size: 16px;
-    }
-    .tinyone-title p {
-        width: 95%;
-        padding-bottom: 40px;
+    .features-title p {
+        font-size: 15px;
+        line-height: 20px;
     }
     /* feature part end */
-    /* contact part start */
-    #contcat-part {
-        padding: 50px 0px;
+    .features-title p {
+        font-size: 17px;
+        line-height: 22px;
     }
-    .login-form p {
-        width: 100%;
+    .features-item {
         text-align: center;
-        margin-left: 0px;
     }
-    .email-address input {
-        width: 327px !important;
-        margin-left: 0px;
-        padding: 23px 0px 26px 10px;
+    .features-item {
+        padding-top: 20px;
     }
-    .icon-custome {
-        padding-top: 25px;
+    .features-item .feature-icon {
+        font-size: 60px;
+    }
+    .features-item .features-content h5 {
+        font-size: 35px;
+    }
+    .features-item .features-content p {
+        font-size: 19px;
+        padding: 0px 51px;
+    }
+    /* contact part start */
+    .sm-btn {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .login-part button {
+        margin: 5% 0% 0% 31%;
+        width: 200px;
     }
     /* contact part end */
     /* footer part start */
-    #footer-part {
-        padding: 10px 0px 50px 0px;
-    }
     /* footer part end */
 }
 
@@ -196,25 +184,29 @@
     /* nav bar start */
     .navbar-light .navbar-toggler-icon {
         background-image: url("../img/tab2.png");
+        width: 35px;
+        height: 35px;
+        transform: translateX(-15%) !important;
     }
     .navbar-toggler-icon {
         width: 2em;
         height: 2em;
         background-color: #ffffff;
-        border-radius: 50%;
+        border-radius: 5%;
     }
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, .5);
-        border-color: 0px;
+        border-color: none;
         background: #101010;
-        border-radius: 50%;
-        width: 64px;
-        height: 64px;
+        border-radius: 5%;
+        width: 50px;
+        height: 50px;
     }
     .navbar-nav .nav-link {
         text-align: center;
         background: #757474;
-        color: #ffffff !important;
+        color: #1e1d1d !important;
+        font-size: 30px;
     }
     /* nav bar end */
     /* slider part start */
@@ -223,40 +215,40 @@
     }
     .slider-content h2 {
         font-size: 40px;
-        text-align: center;
     }
     .slider-content p {
         padding-top: 5px;
-        text-align: center;
     }
-    .list-inline {
-        margin-left: 35%;
+    .slider-all {
+        text-align: center;
     }
     .slider-img {
         text-align: center;
     }
     /* slider part end */
     /* feature part start */
-    .tinyone-title p {
-        width: 80%;
+    .features-title p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .features-item {
+        text-align: center;
+    }
+    .features-item {
+        padding-top: 25px;
+    }
+    .features-item .feature-icon {
+        font-size: 60px;
+    }
+    .features-item .features-content h5 {
+        font-size: 35px;
+    }
+    .features-item .features-content p {
+        font-size: 19px;
+        padding: 0px 51px;
     }
     /* feature part end */
     /* contact part start */
-    .login-form p {
-        width: 100%;
-        margin-left: 0px;
-        padding-bottom: 20px;
-    }
-    .email-address input {
-        width: 480px !important;
-        margin-left: 0px;
-    }
-    .icon-custome {
-        padding-top: 40px;
-    }
-    #contcat-part {
-        padding-bottom: 70px;
-    }
     /* contact part end */
     /* footer part start */
     #footer-part {
@@ -272,18 +264,20 @@
     /* slider part start */
     /* slider part end */
     /* feature part start */
-    .image-card img {
-        margin-left: 50px;
-        padding-top: 23px;
+    .features-title p {
+        padding: 0% 4%;
     }
-    .card-titles h5 {
-        font-size: 18px;
+    .features-item .feature-icon {
+        font-size: 35px;
+    }
+    .features-item .features-content h5 {
+        font-size: 25px;
+    }
+    .features-item .features-content p {
+        font-size: 16px;
     }
     /* feature part end */
     /* contact part start */
-    .email-address input {
-        margin-left: 70px;
-    }
     /* contact part end */
     /* footer part start */
     /* footer part end */
